@@ -1,3 +1,9 @@
+/*
+    背包有四个约束P,A,C,M（相当于四种容量），
+    每个物品有对应的四种体积p,a,c,m，同时还有一个价值g，
+    问选哪些物品使得不超容量的情况下价值最大。
+    即一个四个约束条件的01背包，适当修改一下01背包模板即可。
+*/
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
