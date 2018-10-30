@@ -1,10 +1,10 @@
 void Get_Next()
 {
-	int Len = m;
-	Next[0] = -1;
-	int k = -1;
+	int Len = strlen(p);
 	int i = 0;
-	while (i < Len - 1)
+	int k = -1;
+	Next[0] = -1;
+	while (i < Len)
 	{
 		if (k == -1 || p[i] == p[k])
 		{
