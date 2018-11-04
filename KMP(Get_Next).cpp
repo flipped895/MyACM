@@ -10,10 +10,7 @@ void Get_Next()
 		{
 			i++;
 			k++;
-			if (p[i] != p[k])
-				Next[i] = k;
-			else
-				Next[i] = Next[k];
+			Next[i] = k;
 		}
 		else
 		{
